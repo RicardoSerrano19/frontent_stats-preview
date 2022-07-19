@@ -28,9 +28,24 @@ body{
 
 .container{
     background-color: var(--dark-desaturated-blue);
-    width: 375px;
+    width: 350px;
+}
+
+.container__content{
+    padding: 2rem;
 }
 
 .container__banner img{
     max-width: 100%;
+}
+
+.container__content__title{
+    color: var(--white);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 1.2rem;
+}
+
+.container__content__title span{
+    color: var(--soft-violet);
 }
