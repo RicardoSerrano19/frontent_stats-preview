@@ -49,3 +49,13 @@ body{
 .container__content__title span{
     color: var(--soft-violet);
 }
+
+.container__content__description{
+    color: var(--slightly-transparent-white);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Lexend Deca';
+    margin: 1.2rem 0;
+}
