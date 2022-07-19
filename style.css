@@ -59,3 +59,29 @@ body{
     font-family: 'Lexend Deca';
     margin: 1.2rem 0;
 }
+
+.container__content__summary{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container__content__summary__topic{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container__content__summary__topic__quantity{
+    color: var(--white);
+    font-family: 'Inter';
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.container__content__summary__topic__type{
+    color: var(--slightly-transparent-white);
+    font-family: 'Lexend Deca';
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
